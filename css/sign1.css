@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: linear-gradient(#dd3e54,
+        #6be585);
+}
+
+form
+{
+    margin: 0 auto;
+}
+
+. form-container {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+
+
+}
+
+.password {
+    float: left;
+}
+ .control-label{
+    text-align: left;
+}
