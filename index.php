@@ -28,7 +28,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">HOME</a></li>
                     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="organ.php" id="navbardrop" data-toggle="dropdown">
+      <a class="nav-link dropdown-toggle" href="gynacology.php" id="navbardrop" data-toggle="dropdown">
         SURGUERY
       </a>
       <div class="dropdown-menu">
