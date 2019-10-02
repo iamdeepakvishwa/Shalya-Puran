@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/MAIN.css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  
 
 </head>
 
@@ -17,7 +18,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
                 </button>
                 <a class="navbar-brand" href="index.php">SHALYA PURAN</a>
                 
@@ -26,7 +27,17 @@
             <div class="navbar-collapse collapse" id="navbarcollapse" aria-expanded="true">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">HOME</a></li>
-                    <li><a href="surgery">SURGERY</a></li>
+                    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="organ.php" id="navbardrop" data-toggle="dropdown">
+        SURGUERY
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Gynacology</a>
+        <a class="dropdown-item" href="#">Neurology</a>
+        <a class="dropdown-item" href="#">Endrinolgy</a>
+      </div>
+    </li>
+                   
                     <li><a href="bank.php">BLOOD BANK</a></li>
                     <li><a href="organ.php">ORGAN BANK</a></li>
                     <li><a href="#">ABOUT</a></li>
