@@ -22,44 +22,44 @@
                 <form method="post" action="register.php" role="form">
                     <?php include('errors.php'); ?>
                     <div class="form-group">
-                        <label class="control-label col-sm-3" for="name">NAME:</label>
+                        <label class="control-label col-sm-3" for="name">Name:</label>
                         <div class="col-sm-4">
-                            <input type="text" class="form-control " id="name" placeholder="NAME" name="fname"><?php echo $username; ?>
+                            <input type="text" class="form-control " id="name" placeholder="Name" name="fname"><?php echo $username; ?>
                         </div>
                     </div>
                     <br>
                     <br>
                     <br>
                     <div class="form-group">
-                        <label class=" control-label col-sm-3" for="email">EMAIL:</label>
+                        <label class=" control-label col-sm-3" for="email">Email:</label>
                         <div class="col-sm-4">
-                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="fmail">
+                            <input type="email" class="form-control" id="email" placeholder="Email" name="fmail">
                         </div>    
                     </div>
                     <br>
                     <br>
                     <div class="form-group">
-                        <label class="control-label col-sm-3 " for="usid">CONFIRM EMAIL:</label>
+                        <label class="control-label col-sm-3 " for="usid">Confirm Email:</label>
                         <div class="col-sm-4">
-                            <input type="USID" class="form-control " id="userid" placeholder="CONFIRM EMAIL" name="fmail1">
+                            <input type="USID" class="form-control " id="userid" placeholder="Confirm Email" name="fmail1">
                         </div>    
                     </div>
                     <br>
                     <br>
                     <div class="form-group"> 
-                        <label class="control-label col-md-3" for="adharcard">AADHARCARD NO:</label>
+                        <label class="control-label col-md-3" for="adharcard">Aadhar no:</label>
                             <div class="col-sm-4">
-                                <input type="USID" class="form-control " id="aadharcard" placeholder="AADHARCARD NO" name="fanumber">
+                                <input type="USID" class="form-control " id="aadharcard" placeholder="AadharCard no." name="fanumber">
                             </div>    
                     </div>
                     <br>
                     <br>
                     <div class="form-group">
-                        <label class="control-label col-sm-3" for="gender">GENDER:</label>
+                        <label class="control-label col-sm-3" for="gender">Gender:</label>
                         <div class="col-sm-2">
                             <select class="form-control" id="gender1" name="fgender">
-                                <option value="Male">MALE</option>
-                                <option value="Female">FEMALE</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
                                 <option value="Other's">Other's</option>
                             </select>
                         </div>    
@@ -67,11 +67,11 @@
                     <br>
                     <br>
                     <div class="form-group">
-                          <label class="control-label col-md-3" for="confirmation">CONSULTED DOCTOR PREVIOUSLY:</label>
+                          <label class="control-label col-md-3" for="confirmation">Consulted Doctor Previously:</label>
                           <div class="col-sm-2">
                               <select class="form-control" id="confirmation1" name="fconsult">
-                                  <option value="Yes">YES</option>
-                                  <option value="No">NO</option>
+                                  <option value="Yes">Yes</option>
+                                  <option value="No">No</option>
                               </select>
                           </div>
                     </div>
@@ -87,9 +87,17 @@
                     <br>
                     <br>
                     <div class="form-group">
-                        <label class="control-label col-sm-3" for="password">PASSWORD:</label>
+                        <label class="control-label col-sm-3" for="password">Password:</label>
                         <div class="col-sm-4">
-                            <input type="password" class="form-control " id="password" placeholder="PASSWORD" name="fpassword">
+                            <input type="password" class="form-control " id="password" placeholder="Password" name="fpassword">
+                        </div>    
+                    </div>
+                    <br>
+                    <br>
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" for="password">Confirm Password:</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control " id="password" placeholder="Confirm Password" name="cfpassword">
                         </div>    
                     </div>
                     <br>
